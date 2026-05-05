@@ -1,0 +1,153 @@
+.classhover:hover {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(180, 180, 234);
+}
+.titlehover:hover {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(229, 226, 226);
+}
+
+.aiimage {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.flexes {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.dashboardh {
+  margin-top: 10px;
+}
+.name {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.logins {
+  margin-left: -70px;
+  color: black;
+}
+.inputbox {
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.mainLogin {
+  margin-top: 20px;
+}
+.forget {
+  margin-left: -150px;
+}
+.eyeIcon {
+  margin-right: 12px;
+  margin-left: -30px;
+  margin-top: 12px;
+}
+.eyeIcon2 {
+  margin-top: 30px;
+}
+.forgot {
+  display: flex;
+  justify-content: space-between;
+}
+.addflex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+  margin-bottom: 20px;
+}
+.mainForm {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+}
+.doctors {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 30px;
+}
+.building {
+  display: flex;
+  justify-content: space-evenly;
+}
+.phones {
+  color: white;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex3 {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background: #041f46;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  right: 0; /* visible */
+}
+
+.sidebar a {
+  margin: 10px 0;
+  text-decoration: none;
+  color: white;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.bookflex {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.buttonflex {
+  display: flex;
+  flex-direction: row;
+}
+.bookForm {
+  margin-top: -30px;
+}
+.searchbox {
+  margin-top: -50px;
+}
