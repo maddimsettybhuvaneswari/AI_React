@@ -5,6 +5,8 @@ on:
     branches: ["main"]
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  REACT_APP_API_URL: "https://aismartsystem.com"
+
 jobs:
   build:
     runs-on: ubuntu-latest
